@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  discovery:
+    build: .
+    image: discovery
+    container_name: discovery
+    ports:
+      - "8761:8761"
