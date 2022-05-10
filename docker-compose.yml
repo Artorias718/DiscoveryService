@@ -5,7 +5,7 @@ services:
     build: .
     image: discovery
     environment:
-      eureka.client.serviceUrl.defaultZone: http://locahost:8761/eureka/
+      eureka.client.serviceUrl.defaultZone: http://discovery:8761/eureka/
     container_name: discovery
     ports:
       - "8761:8761"
